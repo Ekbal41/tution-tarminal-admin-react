@@ -7,7 +7,11 @@ function AdminLayout({ children }) {
   return (
     <>
       <Navbar setNotOpen={setNotOpen} notOpen={notOpen} />
-      <div className="">
+      <div className="mx-auto"
+      style={{
+        maxWidth: 1530,
+      }}
+      >
         <Sidebar notOpen={notOpen} />
         {children}
       </div>

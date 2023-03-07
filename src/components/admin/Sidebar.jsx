@@ -15,8 +15,11 @@ function Sidebar({notOpen}) {
     <>
       <div
       className={notOpen? "d-none d-md-block" : "d-block d-md-block"}
+      
       >
-        <div className=" t-sidebar position-fixed">
+        <div className=" t-sidebar position-fixed"style={{
+        height: "100vh",
+      }}>
           <div className="t-user-details">
             <img src={UserImage} alt="user" />
             <p className="t-username mt-3">Asif Ekbal Shagor</p>
