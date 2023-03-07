@@ -45,7 +45,7 @@ function ProfileCard() {
         <div className="t-fake col-2">
           <img className="" src={LocationIcon} />
         </div>
-        <div className="col-10">
+        <div className="col-10  width-c">
           <h1>09</h1>
           <p className="t-gray">doloremque unde magni quo accusantium</p>
         </div>

@@ -24,14 +24,14 @@ function MembershipNotice() {
         <div className="col-md-6 t-d-card-white p-4">
           <h3 className="fs-5 fw-400">Notice Board</h3>
           <div className="t-text-intro mt-4">
-            <p className="t-normal-text">
+            <p className="t-normal-text notice">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.sit amet
               consectetur adipisicing elit. Praesentium, quidem! Voluptates in
               nam corporis accusamus, explicabo ex voluptatibus vitae
               dolorum!voluptatibus vitae dolorum!
             </p>
           </div>
-          <p className="fw-light mt-4">5 Feb 2023</p>
+          <p className="fw-light mt-4 date">5 Feb 2023</p>
         </div>
       </div>
       {/* <div className="row mt-4">
